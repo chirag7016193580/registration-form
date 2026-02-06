@@ -1,0 +1,178 @@
+body {
+    background-color: #3C3CE8;
+
+}
+
+.box {
+
+    height: 550px;
+    width: 850px;
+    box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    margin-top: 50px;
+    background-image: linear-gradient(45deg, #00796b, #4A1184);
+
+}
+
+#name {
+
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #77b1d4;
+    text-shadow: 0px 0px 5px #4A1184;
+    padding-top: 20px;
+
+}
+
+form {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif, verdana;
+    text-align: start;
+    padding-left: 30px; 
+     margin: 30px;
+    
+    /* column-count: 2; */
+
+    
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". ."
+    ". ."; 
+
+
+  
+   
+}
+
+input {
+    margin-top: 40px;
+    text-align: center;
+    padding: 6px;
+    background: rgba(255, 255, 255, 0.2);
+    opacity: 0.8;
+   
+
+  
+   
+
+
+   
+   
+}
+ .inp{
+    height: 20px;
+    width: 200px;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+  
+   
+} 
+
+
+#select{
+height: 30px;
+    width: 180px;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+
+
+    margin-top: 20px;
+    text-align: center;
+    padding: 6px;
+    background: rgba(255, 255, 255, 0.2);
+    opacity: 0.8;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+   
+
+
+
+label {
+
+    text-align: start;
+
+}
+.gender{
+    margin-left: 60px;
+     margin-top: 28px;
+     margin-right: 10px;
+}  
+
+
+.a{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.c{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.d{
+    
+    margin-left: 87px;
+    margin-right: 20px;
+}
+.f{
+    
+    margin-left: 76px;
+    margin-right: 20px;
+}
+
+.e{
+    
+    margin-left: 37px;
+    margin-right: 20px;
+}
+
+.g{
+    
+    margin-left: 80px;
+    margin-right: 20px;
+}
+
+button{
+
+
+
+
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+
+    margin-top: 60px;
+    position: relative;
+    left:170px;
+    padding: 10px;
+    background-color: #00796b;
+    color: #ffffff;
+}
+
+/* hover animation */
+input,select,button:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+   
+    
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+button,input,select:active{   border-color: #4A1184;
+  box-shadow:
+    0 0 6px rgba(0,121,107,0.45),
+    0 0 14px rgba(74,17,132,0.35);
+  background: rgba(255,255,255,0.12);
+
+
+  
+}
