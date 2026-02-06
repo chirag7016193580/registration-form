@@ -43,6 +43,10 @@ form {
     ". ."; 
 
 
+
+    
+
+
   
    
 }
@@ -137,7 +141,13 @@ label {
     
     margin-left: 80px;
     margin-right: 20px;
-}
+} 
+
+
+
+
+
+
 
 button{
 
@@ -175,4 +185,51 @@ button,input,select:active{   border-color: #4A1184;
 
 
   
+}
+input:focus, select:focus {
+            background: rgba(255, 255, 255, 0.25);
+            box-shadow: 0 0 15px rgba(119, 177, 212, 0.3);
+            transform: translateY(-2px);
+}
+
+
+
+/* ===== PHONE MEDIA QUERY ONLY ===== */
+@media screen and (max-width: 600px) {
+
+    .box{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    form{
+        grid-template-columns: 1fr; /* single column */
+        padding-left: 0;
+        margin: 0;
+    }
+
+    input,
+    .inp,
+    #select{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .gender{
+        margin-left: 0;
+    }
+
+    /* reset manual spacing */
+    .a,.c,.d,.e,.f,.g{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    button{
+        left: 0;
+        margin: 30px auto 0;
+        display: block;
+    }
 }
